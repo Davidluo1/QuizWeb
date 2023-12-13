@@ -22,7 +22,9 @@ const submitEl = document.getElementById("submit");
 
 let currentQuiz = 0;
 let score = 0;
+
 loadQuiz();
+
 function select() {
   let answer = undefined;
   for (let option of answerEl) {
